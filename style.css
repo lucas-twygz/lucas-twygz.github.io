@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+*{
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f3e9;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#comeco {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid indigo;
+    background-color: white;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.produto img {
+    max-width: 100%;
+    border: 1px solid indigo;
+}
+
+.produto h3 {
+    font-size: 1.5rem;
+}
+
+.produto .preco {
+    font-weight: bold;
+    color: indigo;
+}
+
+#sobre-nos {
+    background-color: #f7f3e9;
+    padding: 20px;
+    text-align: center;
+}
+
+#projetos {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
