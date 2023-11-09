@@ -11,7 +11,7 @@ body {
 
 
 header {
-    background-color: indigo;
+    background-color: rgb(35, 7, 55);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -39,19 +39,29 @@ nav a {
 }
 
 #comeco {
-    background-color: white;
+    background-color: indigo;
     padding: 20px;
     text-align: center;
+    color: #f7f3e9;
 }
 
 .produto {
     margin: 20px;
     padding: 10px;
-    border: 1px solid indigo;
+    border: 1px solid rgb(33, 9, 51);
     background-color: white;
     display: inline-block;
     max-width: 300px;
 }
+
+.produto p{
+    color: rgb(7, 0, 130);
+}
+
+.produto a{
+    color: indigo;
+}
+
 
 .produto img {
     max-width: 100%;
@@ -60,17 +70,7 @@ nav a {
 
 .produto h3 {
     font-size: 1.5rem;
-}
-
-.produto .preco {
-    font-weight: bold;
     color: indigo;
-}
-
-#sobre-nos {
-    background-color: #f7f3e9;
-    padding: 20px;
-    text-align: center;
 }
 
 #projetos {
@@ -81,7 +81,7 @@ nav a {
 }
 
 footer {
-    background-color: indigo;
+    background-color: rgb(35, 7, 55);
     color: white;
     text-align: center;
     padding: 10px 0;
